@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gpaplicacion">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoprueba2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logoprueba2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".interfaces.inicio2_p"></activity>
+        <activity
+            android:name=".interfaces.menu_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".interfaces.Splash"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".interfaces.prueba_m" />
+        <activity
+            android:name=".interfaces.interfaz_p"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".llenadoListas.casa_ll"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".llenadoListas.cuerpo_ll"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".llenadoListas.escuela_ll"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".llenadoListas.familia_ll"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".llenadoListas.frutas_ll"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".llenadoListas.vocales_ll"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".llenadoListas.figuras_ll"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".llenadoListas.colores_ll"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".llenadoListas.animales_ll"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".interfaces.inicio_p"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
