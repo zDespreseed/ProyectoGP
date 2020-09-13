@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/logoprueba2"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".interfaces.inicio2_p"></activity>
+        <activity android:name=".interfaces.evaluacion_p"></activity>
+        <activity android:name=".interfaces.inicio2_p" />
         <activity
             android:name=".interfaces.menu_p"
             android:theme="@style/AppTheme.NoActionBar" />
